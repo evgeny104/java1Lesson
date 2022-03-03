@@ -16,7 +16,7 @@ public class Homework1 {
     }
 
     private static void checkSumSign() {
-        int a = -10;
+        int a = -1;
         int b = 2;
         int c = a + b;
 
