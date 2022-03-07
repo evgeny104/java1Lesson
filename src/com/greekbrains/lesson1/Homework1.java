@@ -1,4 +1,4 @@
-package com.company.lesson1;
+package com.greekbrains.lesson1;
 
 public class Homework1 {
 
@@ -28,18 +28,17 @@ public class Homework1 {
         }
     }
     private static void printColor() {
-        int value = 0;
+        int value = 101;
 
         if ( value <= 0 ) {
             System.out.println("Красный");
-        }
-        if ( value > 0 && value <= 100 ) {
+        } else if (value > 0 && value <= 100) {
             System.out.println("Желтый");
-        }
-        if ( value > 100) {
+        } else {
             System.out.println("Зеленый");
         }
     }
+
     private static void compareNumbers() {
         int a = 0;
         int b = 2;
@@ -51,7 +50,5 @@ public class Homework1 {
         }
 
     }
-
-
 
 }
